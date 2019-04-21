@@ -8,12 +8,14 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ## Description
 
-This is project demonstrate the power of Slots.
+This project demonstrate the power of Slots.
+
 Slot is just a placeholder inside a Web Component that you can fill with your own markup, which lets you create separate DOM trees and present them together.
 
-We have an Angular board.component with 'app-board' selector. 
-But we dont use it in our app.component.html file.
+We have an Angular board.component with 'app-board' selector but we dont use it in our app.component.html file.
+
 So how things working here!? 
-We use here something called Custom Elements which is part of Web Components... 
+
+We use here something called Custom Elements which is part of Web Components.
 
 So we dont use our Angular component, we custom it as an element in dashboard.module.
