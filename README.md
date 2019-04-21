@@ -33,5 +33,7 @@ For example, we can take a Web Component which contain an Angular component and 
 For more details how to do this you can explore this great article (divided to 3):
 
 part1: https://medium.com/@suwigyarathore/angular-element-as-a-web-component-6e77a1e1b4a7
+
 part2: https://medium.com/@suwigyarathore/angular-component-as-a-web-component-part-ii-a2e886b30cec
+
 part3: https://medium.com/@suwigyarathore/angular-component-as-a-web-component-in-react-part-iii-2c704bb13343
