@@ -1,0 +1,17 @@
+<board-tile>
+    <span slot="title">This is slots example -> i am a slotted HTML element</span>
+    <span slot="footer">me too slotted!</span>
+    <span slot="content">I am also a slotted HTML element</span>
+    <span slot="description">ok, lets explain whats going on here...
+        <br>We have an Angular board.component with 'app-board' selector.
+        <br>But we dont use it in our app.component.html file....mmm...so how things working here!?
+        <br>We use here something called <b>Custom Elements</b> which is part of Web Components...
+        <br>You can read about it <a href="//developer.mozilla.org/en-US/docs/Web/Web_Components>">here</a>
+        <br><br>So we dont use our Angular component, we custom it as an element in dashboard.module and import the module in app.module
+        <br>Then we use another cool thing called <b>Slots</b>
+        <br>Slot is just a placeholder inside a <b>Web Component</b> that you can fill with your own markup, which lets you create separate DOM trees and present them together
+        <br><br>SO COOL!
+        <br><br><i style="color: lightskyblue">By thw way... all this explanation is also <b style="font-size: 2em">slotted!</b></i>
+    </span>
+    <!-- Only believe in statistics you've faked yourself. -->
+</board-tile>

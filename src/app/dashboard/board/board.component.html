@@ -1,0 +1,27 @@
+<div class="container">
+
+    <div class="header">
+      <h1 class="title">
+        <slot name="title">Default title text</slot>
+      </h1>
+    </div>
+  
+    <div class="staticContent">
+      This is a static content in dashboard.component
+    </div>
+  
+    <div class="dynamicContent">
+      <p>
+        <slot name="content">Default content text</slot>
+      </p>
+  
+      <p>
+        <slot name="footer">Default footer text</slot>
+      </p>
+
+      <div style="display: flex; justify-content: center; margin-top: 5em">
+        <slot name="description">Default content text</slot>
+      </div>
+  
+    </div>
+  </div>
